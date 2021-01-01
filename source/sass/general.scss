@@ -16,3 +16,11 @@ body {
   line-height: 1.5;
   color: $white;
 }
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
